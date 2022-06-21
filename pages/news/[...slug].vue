@@ -6,13 +6,13 @@ definePageMeta({
 
 <template>
   <PageWrapper>
-    <PageHeader>
+    <!-- <PageHeader>
       <PageTitle :text="$t('pages.dashboard.index.title')" class="capitalize" />
-    </PageHeader>
+    </PageHeader> -->
     <PageBody>
       <PageSection>
         <main>
-          <ContentDoc :path="$route.params.slug" />
+          <ContentDoc :path="$route.path" />
         </main>
       </PageSection>
     </PageBody>

@@ -33,8 +33,9 @@ export default defineComponent({
     <div class="flex-1 overflow-y-auto pl-4 lg:pl-0 pr-4 py-4">
       <ul>
         <ContentNavigation v-slot="{ navigation }">
-          <div v-for="link of navigation" :key="link._path">
-            <NuxtLink :to="link.children[0]._path">{{ link.children[0].title }}</NuxtLink>
+          <!-- {{navigation}} -->
+          <div v-for="link of navigation[0].children" :key="link._path">
+            <NuxtLink :to="link._path">{{ link.title }}</NuxtLink>
           </div>
         </ContentNavigation>
       </ul>

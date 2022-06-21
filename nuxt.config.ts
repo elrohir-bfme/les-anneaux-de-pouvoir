@@ -110,4 +110,11 @@ export default defineNuxtConfig({
     },
     scan: true,
   },
+
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
+  }
+  
 })

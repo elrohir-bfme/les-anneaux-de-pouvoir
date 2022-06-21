@@ -20,6 +20,6 @@ pages:
       nav: home
       title: home
 banners:
-  welcome: hello, welcome to %{app_name}!
+  welcome: Bienvenue en Terre du Milieu
 others:
-  learn_more: learn more
+  learn_more: Dernière nouveauté

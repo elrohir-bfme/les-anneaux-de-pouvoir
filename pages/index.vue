@@ -17,14 +17,14 @@ const leadingsText = computed(() => [
   },
   {
     text: titlesText.value[1],
-    startColor: '#7928CA',
-    endColor: '#FF0080',
+    startColor: '#0096c7',
+    endColor: '#457b9d',
     delay: 2,
   },
   {
     text: titlesText.value[2],
-    startColor: '#FF4D4D',
-    endColor: '#F9CB28',
+    startColor: '#0077b6',
+    endColor: '#03045e',
     delay: 4,
   },
 ])

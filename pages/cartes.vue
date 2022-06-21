@@ -11,17 +11,15 @@ definePageMeta({
     </PageHeader>
     <PageBody>
       <PageSection>
-          <!-- <h2 class="p-2">Les Cartes de la Série</h2> -->
-          <div class="flex text-center justify-center  items-center gap-2 pb-4">
-          <a
+
+          <div class="flex items-center justify-center">
+
+            <Button
+            text="Voir les cartes"
+            size="lg"
+            class="font-extrabold capitalize"
             href="https://www.amazon.com/adlp/lotronprime"
-            target="_blank"
-            class="flex text-center mx-auto- text-orange-400 bg-gray-900
-              border-2 py-2 px-8 focus:outline-none hover:bg-gray-800
-              rounded text-lg transform transition duration-500
-              hover:scale-110 border-orange-400">
-              Voir les cartes
-          </a>
+          />
           </div>
 
 
