@@ -135,7 +135,10 @@ a.router-link-active {
   font-weight: bold;
 }
 a.router-link-exact-active {
-  color: theme('colors.slate.900');
+  // color: theme('colors.slate.900');
+  opacity: 0.7;
+  // text-decoration: underline;
+  // text-shadow: 2px 2px; 
 }
 html.dark {
   a.router-link-exact-active {

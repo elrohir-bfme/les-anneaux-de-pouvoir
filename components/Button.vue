@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const props = defineProps({
+const props2 = defineProps({
   text: {
     type: String,
     default: '',
@@ -20,6 +20,10 @@ const props = defineProps({
     type: String,
     default: undefined,
   },
+  target: {
+    type: Boolean,
+    defaut: false
+  }
 })
 
 // state:styles
@@ -48,16 +52,19 @@ const sizes = reactive<{
 })
 
 // state
-const selectedStyle = computed(() => styles[props.type] || styles.primary)
-const selectedSize = computed(() => sizes[props.size] || sizes.lg)
+const selectedStyle = computed(() => styles[props2.type] || styles.primary)
+const selectedSize = computed(() => sizes[props2.size] || sizes.lg)
 
 // methods
 const onClick = (event: MouseEvent) => {
   const router = useRouter()
-  if (props.to) {
-    router.push(props.to)
+  if (props2.to) {
+    router.push(props2.to)
   }
-  if (!props.href) {
+  if (!props2.href) {
+    event.preventDefault()
+  }
+  if(!props2.target) {
     event.preventDefault()
   }
 }
@@ -77,6 +84,7 @@ const onClick = (event: MouseEvent) => {
     :class="`${defaultStyle} ${selectedStyle} ${selectedSize}`"
     :href="href"
     @click="onClick"
+    :target="target ? '_blank' : ''"
   >
     <slot>{{ text }}</slot>
   </a>

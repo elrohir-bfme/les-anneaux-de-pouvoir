@@ -14,8 +14,8 @@ export default defineNuxtConfig({
   // app
   app: {
     head: {
-      title: 'Les Anneaux de Pouvoir 💍',
-      titleTemplate: 'Les Anneaux de Pouvoir 💍',
+      title: 'Le Seigneur des Anneaux : Les Anneaux de Pouvoir 💍',
+      titleTemplate: 'Le Seigneur des Anneaux : Les Anneaux de Pouvoir 💍',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {

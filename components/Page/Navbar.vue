@@ -6,17 +6,28 @@ export interface IMenuItem {
   text: string
   href?: any
   route?: any
+  target?: boolean
 }
 
 const { t } = useLang()
 const app = useState<IApp>('app')
 const menus = computed((): IMenuItem[] => [
+  { type: 'link', text: 'Images', route: { name: 'images' } },
+  { type: 'link', text: 'Affiches', route: { name: 'affiches' } },
   { type: 'link', text: 'Cartes', route: { name: 'cartes' } },
   { type: 'link', text: 'Vidéos', route: { name: 'videos' } },
+  { type: 'link', text: 'Vidéos officielles', route: { name: 'videosOfficielles' } },
   {
     type: 'button',
     text: t('pages.news.nav'),
     route: { name: 'news' },
+  },
+    {
+    type: 'button',
+    text: 'Histoire Univers (Tolkiendil)',
+    href: 'https://www.tolkiendil.com/bienvenue',
+    target: true
+    // route: { name: 'news' },
   },
 ])
 
@@ -35,7 +46,7 @@ const menus = computed((): IMenuItem[] => [
         <Anchor
           class="underline font-bold"
           :text="$t('others.learn_more')"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
+          to="/news"
         />
       </div>
     </template>
@@ -61,6 +72,7 @@ const menus = computed((): IMenuItem[] => [
                 class="font-extrabold capitalize"
                 :to="item.route ? item.route : undefined"
                 :href="item.href ? item.href : undefined"
+                :target="item.target ? item.target : false"
               />
             </li>
           </ul>
@@ -86,14 +98,14 @@ const menus = computed((): IMenuItem[] => [
           </Anchor>
           <Anchor
             class="hover:no-underline hover:text-slate-900 hover:dark:text-white text-lg flex self-center items-center"
-            href="https://laterredumilieu.fr/Discord"
+            href="https://www.twitch.tv/elrohir_bfme"
             title="Twitch"
           >
             <IconMdi:twitch />
           </Anchor>
           <Anchor
             class="hover:no-underline hover:text-slate-900 hover:dark:text-white text-lg flex self-center items-center"
-            href="https://laterredumilieu.fr/Discord"
+            href="https://www.instagram.com/elrohir_bfme/"
             title="Instagram"
           >
             <IconMdi:instagram />
@@ -127,7 +139,7 @@ const menus = computed((): IMenuItem[] => [
                   v-else-if="item.type === 'button'"
                   :text="item.text"
                   size="xs"
-                  class="flex-1 font-extrabold capitalize"
+                  class="flex-1 font-extrabold capitalize mb-2"
                   :to="item.route ? item.route : undefined"
                   :href="item.href ? item.href : undefined"
                 />
@@ -140,21 +152,21 @@ const menus = computed((): IMenuItem[] => [
           <div class="mt-2">
             <ThemeSwitcher type="select-box" />
           </div>
-          <div class="mt-6 text-sm font-bold capitalize">
+          <!-- <div class="mt-6 text-sm font-bold capitalize">
             {{ $t('components.language_switcher.change_language') }}
-          </div>
-          <div class="mt-2">
+          </div> -->
+          <!-- <div class="mt-2">
             <LanguageSwitcher type="select-box" />
-          </div>
+          </div> -->
         </ActionSheetBody>
-        <Button
+        <!-- <Button
           type="secondary"
           title="Github"
           href="https://github.com/viandwi24/nuxt3-awesome-starter"
         >
           <IconMdi:github-face />
           <span class="ml-1">Github</span>
-        </Button>
+        </Button> -->
         <Button
           text="Close"
           type="secondary"

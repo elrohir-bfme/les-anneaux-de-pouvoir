@@ -12,7 +12,7 @@ pages:
     title: blank page
     just_blank_page_with_title: just blank page with title
   news:
-    nav: Nouvautés
+    nav: Nouveautés
   dashboard:
     nav: dashboard
     title: dashboard

@@ -6,8 +6,6 @@ import '@vue/runtime-core'
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     'IconFaSolid:ellipsisV': typeof import('~icons/fa-solid/ellipsis-v')['default']
-    'IconLa:language': typeof import('~icons/la/language')['default']
-    'IconMdi:githubFace': typeof import('~icons/mdi/github-face')['default']
     'IconMdi:instagram': typeof import('~icons/mdi/instagram')['default']
     'IconMdi:ring': typeof import('~icons/mdi/ring')['default']
     'IconMdi:twitch': typeof import('~icons/mdi/twitch')['default']

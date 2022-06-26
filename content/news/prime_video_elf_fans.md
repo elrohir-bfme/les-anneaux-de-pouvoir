@@ -1,11 +1,14 @@
 ---
 title: "La Terre du Milieu a besoin de plus de fans d'elfes"
 description: 'Nouvelle vidéo promotionnelle pour la série Seigneur des Anneaux : Les Anneaux de Pouvoir'
+img: /assets/images/prime_video_more_elf_fans/scene00334.jpg
+date: "2022/06/20"
+preview: "Vidéo promotionnelle"
 ---
 
 # Une nouvelle aventure
 
-On découvre un jeune garçon qui échange ses crampons de football pour le monde du Seigneur des Anneaux
+On découvre un jeune garçon qui échange ses crampons de football pour le monde du Seigneur des Anneaux !
 
 <iframe class="mx-auto" width="560" height="315" src="https://www.youtube.com/embed/Rcd0fsYahrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
