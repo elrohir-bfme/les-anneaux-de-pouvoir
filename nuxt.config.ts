@@ -21,7 +21,8 @@ export default defineNuxtConfig({
         {
           hid: 'description',
           name: 'description',
-          content: 'Commençant à une époque de paix relative, la série suit un ensemble de personnages, à la fois familiers et nouveaux, alors qu’ils affrontent la réémergence tant redoutée du mal sur la Terre du Milieu. Des profondeurs les plus sombres des Monts Brumeux, aux forêts majestueuses de la capitale des elfes de Lindon, au royaume insulaire à couper le souffle de Númenor, jusqu’aux confins de la carte, ces royaumes et personnages se tailleront des héritages qui perdureront longtemps après qu’ils soient partis.',
+          content:
+            'Commençant à une époque de paix relative, la série suit un ensemble de personnages, à la fois familiers et nouveaux, alors qu’ils affrontent la réémergence tant redoutée du mal sur la Terre du Milieu. Des profondeurs les plus sombres des Monts Brumeux, aux forêts majestueuses de la capitale des elfes de Lindon, au royaume insulaire à couper le souffle de Númenor, jusqu’aux confins de la carte, ces royaumes et personnages se tailleront des héritages qui perdureront longtemps après qu’ils soient partis.',
         },
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -56,9 +57,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
   ],
 
-  modules: [
-    '@nuxt/content'
-  ],
+  modules: ['@nuxt/content'],
 
   // experimental features
   experimental: {
@@ -113,8 +112,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/sitemap.xml']
-    }
-  }
-  
+      routes: ['/sitemap.xml'],
+    },
+  },
 })

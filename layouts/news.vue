@@ -14,13 +14,13 @@
             <DashboardSidebar />
           </div>
           <div class="flex flex-col lg:ml-60 xl:ml-80">
-          <slot />
+            <slot />
+          </div>
         </div>
+        <slot name="footer">
+          <PageFooter />
+        </slot>
       </div>
-      <slot name="footer">
-        <PageFooter />
-      </slot>
-    </div>
     </div>
     <slot name="app-after" />
     <div id="app-after"></div>

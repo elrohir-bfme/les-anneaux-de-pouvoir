@@ -16,21 +16,24 @@ const menus = computed((): IMenuItem[] => [
   { type: 'link', text: 'Affiches', route: { name: 'affiches' } },
   { type: 'link', text: 'Cartes', route: { name: 'cartes' } },
   { type: 'link', text: 'Vidéos', route: { name: 'videos' } },
-  { type: 'link', text: 'Vidéos officielles', route: { name: 'videosOfficielles' } },
+  {
+    type: 'link',
+    text: 'Vidéos officielles',
+    route: { name: 'videosOfficielles' },
+  },
   {
     type: 'button',
     text: t('pages.news.nav'),
     route: { name: 'news' },
   },
-    {
+  {
     type: 'button',
     text: 'Histoire Univers (Tolkiendil)',
     href: 'https://www.tolkiendil.com/bienvenue',
-    target: true
+    target: true,
     // route: { name: 'news' },
   },
 ])
-
 </script>
 
 <template>
@@ -42,7 +45,7 @@ const menus = computed((): IMenuItem[] => [
         <span class="mr-1">
           {{ $t('banners.welcome', { app_name: app.name }) }}
         </span>
-        
+
         <Anchor
           class="underline font-bold"
           :text="$t('others.learn_more')"

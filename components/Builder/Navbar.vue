@@ -61,9 +61,7 @@ const toggleOptions = (show?: boolean) => {
             >
               <span class="sr-only">Accueil</span>
               <span class="flex items-center">
-                <IconMdi:ring
-                  class="inline-block mr-2 text-lg text-blue-300"
-                />
+                <IconMdi:ring class="inline-block mr-2 text-lg text-blue-300" />
                 {{ app.name }}
               </span>
             </NuxtLink>
@@ -138,7 +136,7 @@ a.router-link-exact-active {
   // color: theme('colors.slate.900');
   opacity: 0.7;
   // text-decoration: underline;
-  // text-shadow: 2px 2px; 
+  // text-shadow: 2px 2px;
 }
 html.dark {
   a.router-link-exact-active {

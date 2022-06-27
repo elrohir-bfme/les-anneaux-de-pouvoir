@@ -1,13 +1,12 @@
 <script lang="ts" setup>
-  //   const { path } = useRoute()
-  //   const { data } = useAsyncData(path, () => queryContent(path).findOne())
+//   const { path } = useRoute()
+//   const { data } = useAsyncData(path, () => queryContent(path).findOne())
 
-  //   console.log(data._rawValue)
+//   console.log(data._rawValue)
 
-  definePageMeta({
-    layout: 'news',
-  })
-
+definePageMeta({
+  layout: 'news',
+})
 
 // useHead({
 //   title: data._rawValue.title ? data._rawValue.title : "de" ,

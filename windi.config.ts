@@ -50,12 +50,12 @@ export default defineConfig({
         primary: MyTheme.colors.orange,
         green: MyTheme.colors.orange,
         evil: '#e4e6db',
-        good: '#243040'
+        good: '#243040',
       },
-      backgroundColor: theme => ({
+      backgroundColor: (theme) => ({
         ...theme('colors'),
         evil: '#243040',
-        good: '#e4e6db'
+        good: '#e4e6db',
       }),
     },
   },

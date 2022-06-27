@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import p from './../../package.json'
 import { IApp } from '~/utils/app'
 const app = useState<IApp>('app')
 </script>
@@ -19,9 +18,7 @@ const app = useState<IApp>('app')
           <div
             class="flex flex-col md:flex-row space-x-2 items-center md:float-right"
           >
-            <span class="text-center md:text-right">
-              Réalisé par Elrohir
-            </span>
+            <span class="text-center md:text-right"> Réalisé par Elrohir </span>
             <span
               class="block bg-primary-500 rounded px-1 py-0.5 text-white text-xs"
             >

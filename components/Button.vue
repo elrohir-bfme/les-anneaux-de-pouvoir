@@ -22,8 +22,8 @@ const props2 = defineProps({
   },
   target: {
     type: Boolean,
-    defaut: false
-  }
+    defaut: false,
+  },
 })
 
 // state:styles
@@ -64,7 +64,7 @@ const onClick = (event: MouseEvent) => {
   if (!props2.href) {
     event.preventDefault()
   }
-  if(!props2.target) {
+  if (!props2.target) {
     event.preventDefault()
   }
 }
@@ -83,8 +83,8 @@ const onClick = (event: MouseEvent) => {
     v-else
     :class="`${defaultStyle} ${selectedStyle} ${selectedSize}`"
     :href="href"
-    @click="onClick"
     :target="target ? '_blank' : ''"
+    @click="onClick"
   >
     <slot>{{ text }}</slot>
   </a>

@@ -4,40 +4,52 @@ definePageMeta({
 })
 
 const videos = computed<string[]>(() => [
-  "reeMd_hQV-I",
-  "z8tV9TYuDWA",
-  "WBERBw3VjmY",
-  "UdOrHKSfq4w",
-  "lFf_YqIxND0",
-  "Z5iiio2ql6g"
+  'reeMd_hQV-I',
+  'z8tV9TYuDWA',
+  'WBERBw3VjmY',
+  'UdOrHKSfq4w',
+  'lFf_YqIxND0',
+  'Z5iiio2ql6g',
 ])
 </script>
 
 <template>
   <PageWrapper>
     <PageHeader>
-      <PageTitle text="Vidéos de différents vidéastes de la Terre du Milieu" class="capitalize" />
+      <PageTitle
+        text="Vidéos de différents vidéastes de la Terre du Milieu"
+        class="capitalize"
+      />
     </PageHeader>
     <PageBody>
       <PageSection>
         <div class="flex flex-wrap -m-4">
-      <div v-for="(link, i) in videos" :key="i" class="lg:w-1/4 md:w-1/2 p-4 w-full">
-        <a :href="`https://www.youtube.com/watch?v=${link}`" target="_blank" class="block relative h-48">
-          <!-- <div class="aspect-w-16 aspect-h-9">
+          <div
+            v-for="(link, i) in videos"
+            :key="i"
+            class="lg:w-1/4 md:w-1/2 p-4 w-full"
+          >
+            <a
+              :href="`https://www.youtube.com/watch?v=${link}`"
+              target="_blank"
+              class="block relative h-48"
+            >
+              <!-- <div class="aspect-w-16 aspect-h-9">
             <iframe :src="link" title="Meet the team behind #LOTRonPrime." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div> -->
-          <img 
-            alt="ecommerce" 
-            class="object-cover object-center w-full h-full block hover:border-blue-600 border-2 border-blue-200 rounded-2xl" 
-            :src="`https://i.ytimg.com/vi/${link}/maxresdefault.jpg`">
-        </a>
-        <!-- <div class="mt-4">
+              <img
+                alt="ecommerce"
+                class="object-cover object-center w-full h-full block hover:border-blue-600 border-2 border-blue-200 rounded-2xl"
+                :src="`https://i.ytimg.com/vi/${link}/maxresdefault.jpg`"
+              />
+            </a>
+            <!-- <div class="mt-4">
           <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
           <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
           <p class="mt-1">$16.00</p>
         </div> -->
-      </div>
-    </div>
+          </div>
+        </div>
       </PageSection>
     </PageBody>
   </PageWrapper>

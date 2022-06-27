@@ -15,8 +15,8 @@ const props = defineProps({
   },
   target: {
     type: String,
-    default: '_blank'
-  }
+    default: '_blank',
+  },
 })
 
 // state
@@ -35,8 +35,8 @@ const target = toRef(props, 'target')
     <slot>{{ text }}</slot>
   </NuxtLink>
   <a
-    :target="target"
     v-else
+    :target="target"
     :class="`transition-colors duration-300 dark:hover:text-white hover:text-gray-900 hover:underline`"
     :href="href"
   >

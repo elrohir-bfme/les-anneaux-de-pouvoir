@@ -1,33 +1,8 @@
 <script lang="ts" setup>
-const { t } = useLang()
-
 // meta
 definePageMeta({
   layout: 'page',
 })
-
-// vars
-const titlesText = computed<string[]>(() => t('pages.index.title').split(','))
-const leadingsText = computed(() => [
-  {
-    text: titlesText.value[0],
-    startColor: '#007CF0',
-    endColor: '#00DFD8',
-    delay: 0,
-  },
-  {
-    text: titlesText.value[1],
-    startColor: '#0096c7',
-    endColor: '#457b9d',
-    delay: 2,
-  },
-  {
-    text: titlesText.value[2],
-    startColor: '#0077b6',
-    endColor: '#03045e',
-    delay: 4,
-  },
-])
 </script>
 
 <template>
@@ -51,13 +26,17 @@ const leadingsText = computed(() => [
       >
         <img src="~/assets/images/elfe.png" alt="Les elfes" />
       </div>
-      <div class="absolute bottom-4 right-4 h-40 w-40 rounded-full bg-red-600 linear-wipe">
+      <div
+        class="absolute bottom-4 right-4 h-40 w-40 rounded-full bg-red-600 linear-wipe"
+      >
         <img src="~/assets/images/nains.png" alt="Les nains" />
       </div>
     </div>
     <div class="flex flex-col z-10">
-      <h1 class="text-lotr text-center drop-shadow-xl text-5xl xl:text-8xl 2xl:text-7xl block font-black uppercase">
-        Le Seigneur des anneaux <br/>Les Anneaux de pouvoir
+      <h1
+        class="text-lotr text-center drop-shadow-xl text-5xl xl:text-8xl 2xl:text-7xl block font-black uppercase"
+      >
+        Le Seigneur des anneaux <br />Les Anneaux de pouvoir
         <!-- <span
           v-for="(item, i) in leadingsText"
           :key="i"
@@ -175,8 +154,8 @@ html.dark {
 
 .background-overlay {
   background-color: red;
-  background-image: url("https://pbs.twimg.com/media/E7zdJNXVkAIPchb?format=jpg&name=4096x4096") !important;
-  background-size:cover;
+  background-image: url('https://pbs.twimg.com/media/E7zdJNXVkAIPchb?format=jpg&name=4096x4096') !important;
+  background-size: cover;
 }
 
 .text-lotr {
