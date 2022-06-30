@@ -1,8 +1,8 @@
 ---
-title: "Premier regard exclusif sur les Orques du Seigneur des Anneaux  Les Anneaux du Pouvoir 💍"
-description: 'Nouvelle vidéo promotionnelle pour la série Seigneur des Anneaux : Les Anneaux de Pouvoir'
-img: static/images/orques/orque_4.webp
-date: "2022/06/21"
+title: "Les Orques !"
+description: 'Premier regard exclusif sur les Orques du Seigneur des Anneaux  Les Anneaux du Pouvoir 💍'
+img: https://cdn.discordapp.com/attachments/991815025213837352/991815117589205032/orque_4.webp
+date: "2022-06-21"
 preview: "Les orques en exclusivité"
 ---
 

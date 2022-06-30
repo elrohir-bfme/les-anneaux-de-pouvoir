@@ -115,4 +115,10 @@ export default defineNuxtConfig({
       routes: ['/sitemap.xml'],
     },
   },
+
+  content: {
+    navigation: {
+      fields: ['date']
+    }
+  }
 })

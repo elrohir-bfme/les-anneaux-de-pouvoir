@@ -12,7 +12,7 @@ definePageMeta({
         <img src="https://pbs.twimg.com/media/E7zdJNXVkAIPchb?format=jpg&name=4096x4096" alt="Orque les Anneaux de Pouvoir" />
       </div> -->
       <div
-        class="absolute top-0 left-0 transform translate-x-64 translate-y-4 h-42 w-42 rounded-full bg-gray-900 dark:bg-white"
+        class="absolute top-0 left-1/3 lg:left-0 transform translate-x-0 lg:translate-x-64 translate-y-0 lg:translate-y-4 h-42 w-42 rounded-full bg-gray-900 dark:bg-white"
       >
         <img src="~/assets/images/orc.png" alt="Orque les Anneaux de Pouvoir" />
       </div>
@@ -27,7 +27,7 @@ definePageMeta({
         <img src="~/assets/images/elfe.png" alt="Les elfes" />
       </div>
       <div
-        class="absolute bottom-4 right-4 h-40 w-40 rounded-full bg-red-600 linear-wipe"
+        class="absolute bottom-4 right-1/3 lg:right-4 h-40 w-40 rounded-full bg-red-600 linear-wipe"
       >
         <img src="~/assets/images/nains.png" alt="Les nains" />
       </div>
@@ -46,13 +46,14 @@ definePageMeta({
           <span class="animated-text-fg">{{ item.text }}</span>
         </span> -->
       </h1>
-      <div class="flex space-x-4 justify-center mt-10">
+      <div class="flex flex-col self-center lg:self-auto   lg:w-auto w-sm lg:flex-row space-x-0 lg:space-x-4 justify-center mt-10">
         <Button
           size="lg"
           text="La Terre du Milieu (Discord)"
           class="font-extrabold"
           href="https://laterredumilieu.fr/Discord"
         />
+        <div class="mt-10 lg:mt-0"></div>
         <Button
           size="lg"
           text="Les nouveautés"

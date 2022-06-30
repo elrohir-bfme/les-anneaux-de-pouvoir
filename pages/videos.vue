@@ -4,6 +4,7 @@ definePageMeta({
 })
 
 const videos = computed<string[]>(() => [
+  'CBI3yoVr05Q',
   'reeMd_hQV-I',
   'z8tV9TYuDWA',
   'WBERBw3VjmY',

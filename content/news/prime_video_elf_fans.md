@@ -1,8 +1,8 @@
 ---
-title: "La Terre du Milieu a besoin de plus de fans d'elfes"
+title: "Vidéo prommotionnelle"
 description: 'Nouvelle vidéo promotionnelle pour la série Seigneur des Anneaux : Les Anneaux de Pouvoir'
-img: /static/images/prime_video_more_elf_fans/scene00334.jpg
-date: "2022/06/20"
+img: https://cdn.discordapp.com/attachments/991815025213837352/991816015258325053/scene00334.jpg
+date: "2022-06-20"
 preview: "Vidéo promotionnelle"
 ---
 
@@ -51,3 +51,5 @@ On découvre un jeune garçon qui échange ses crampons de football pour le mond
 ![Prime Video](https://cdn.discordapp.com/attachments/991815025213837352/991816088197267516/scene01258.jpg)
 ![Prime Video](https://cdn.discordapp.com/attachments/991815025213837352/991816088478294046/scene01445.jpg)
 ![Prime Video](https://cdn.discordapp.com/attachments/991815025213837352/991816084741160991/scene01494.jpg)
+
+### La Terre du Milieu a besoin de plus de fans d'elfes

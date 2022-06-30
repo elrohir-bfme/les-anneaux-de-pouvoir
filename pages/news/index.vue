@@ -2,6 +2,7 @@
 definePageMeta({
   layout: 'news',
 })
+
 </script>
 
 <template>
@@ -13,7 +14,7 @@ definePageMeta({
       <PageSection>
         <main>
           <!-- <ContentDoc path="/" /> -->
-          <ContentList v-slot="{ list }" path="/">
+          <ContentList v-slot="{ list }" path="/news" :query="{ sort: { date: -1 } }">
             <div class="flex flex-wrap">
               <div
                 v-for="article in list"

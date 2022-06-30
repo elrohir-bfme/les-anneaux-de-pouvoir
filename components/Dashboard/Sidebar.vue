@@ -31,6 +31,9 @@ export default defineComponent({
     }"
   >
     <div class="flex-1 overflow-y-auto pl-4 lg:pl-0 pr-4 py-4">
+      <div class="pb-10">
+        <NuxtLink to="/news">Toutes les nouveautés</NuxtLink>
+      </div>
       <ul>
         <ContentNavigation v-slot="{ navigation }">
           <!-- {{navigation}} -->

@@ -28,7 +28,7 @@ const menus = computed((): IMenuItem[] => [
   },
   {
     type: 'button',
-    text: 'Histoire Univers (Tolkiendil)',
+    text: "Découvre l'Univers (Tolkiendil)",
     href: 'https://www.tolkiendil.com/bienvenue',
     target: true,
     // route: { name: 'news' },
