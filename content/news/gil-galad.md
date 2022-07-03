@@ -66,6 +66,18 @@ head:
 ![Gil-Galad](https://cdn.discordapp.com/attachments/991815025213837352/992094919999107133/The-Lord-of-the-Rings-Rings-of-Power-Gil-galad-standing-in-robes.jpg.jpg)
 ![Gil-Galad](https://cdn.discordapp.com/attachments/991815025213837352/992094920275918858/The-Lord-of-the-Rings-Rings-of-Power-Gil-galad-in-warrior-attire.jpg-1536x1024.jpg)
 
+---
+
+"Il a cette sorte de sens elfique de la renaissance imminente du mal", révèle Benjamin Walker, concernant son personnage, Gil-galad. Au début de la première saison, nous sommes en temps de paix mais pour Gil-galad, qui a choisi de rester en Terre du Milieu alors qu'il aurait pu aller en Valinor, cela induit "une vigilance constante". Ce sens de l'inévitable l'empêche néanmoins parfois de faire confiance aux autres, comme le souligne l'acteur.
+
+Il dirige son peuple avec sagesse et avec un sens de la préparation pour tout ce qui vient ensuite. Et comme nous le savons bien, ce qui vient ensuite est le bras droit de Morgoth : Sauron.
+
+Gil-galad essaie de garder l'obscurité à distance en utilisant ses innombrables compétences si nécessaire. C'est un politicien, mais c'est aussi un guerrier.
+
+Au Second Âge, l'une des relations les plus solides qu'ait Gil-galad est avec Elrond. Il sait que le demi-elfe doit faire ses preuves et trouver sa place en Terre du Milieu. Et en cela, Gil-galad le parraine. "Gil-galad va l'encourager à faire les premiers pas du voyage vers son destin ultime", conclut Walker.
+
+---
+
 **Source :** 
 
 [Nerdist Article](https://nerdist.com/article/lord-of-the-rings-the-rings-of-power-who-is-gil-galad-benjamin-walker-interview-exclusive-images/)
