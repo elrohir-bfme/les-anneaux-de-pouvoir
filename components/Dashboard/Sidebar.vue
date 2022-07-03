@@ -32,12 +32,18 @@ export default defineComponent({
   >
     <div class="flex-1 overflow-y-auto pl-4 lg:pl-0 pr-4 py-4">
       <div class="pb-10">
-        <NuxtLink to="/news">Toutes les nouveautés</NuxtLink>
+        <NuxtLink class="text-good dark:text-evil" to="/news"
+          >Toutes les nouveautés</NuxtLink
+        >
       </div>
       <ul>
         <ContentNavigation v-slot="{ navigation }">
           <!-- {{navigation}} -->
-          <div v-for="link of navigation[0].children" :key="link._path">
+          <div
+            v-for="link of navigation[0].children"
+            :key="link._path"
+            class="mb-2 underline hover:font-black"
+          >
             <NuxtLink :to="link._path">{{ link.title }}</NuxtLink>
           </div>
         </ContentNavigation>

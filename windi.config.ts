@@ -55,7 +55,7 @@ export default defineConfig({
       backgroundColor: (theme) => ({
         ...theme('colors'),
         evil: '#243040',
-        good: '#e4e6db',
+        good: '#e3e7e9', // #e4e6db',
       }),
     },
   },

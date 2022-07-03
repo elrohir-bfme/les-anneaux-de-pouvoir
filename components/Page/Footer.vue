@@ -14,16 +14,25 @@ const app = useState<IApp>('app')
         </div>
         <div class="text-xs text-gray-600 dark:text-gray-400">
           <!-- Copyright © 2022. All rights reserved.  -->
-          Créé avec <span class="text-blue-500">❤</span>
+          <span class="bg-primary-500 rounded px-1 py-0.5 text-white text-xs">
+            Début de l'aventure le 2 Septembre 2022
+          </span>
           <div
             class="flex flex-col md:flex-row space-x-2 items-center md:float-right"
           >
-            <span class="text-center md:text-right"> Réalisé par Elrohir </span>
-            <span
+            <p class="text-center md:text-right">
+              Créé avec <span class="text-blue-500">❤</span>
+            </p>
+            <Anchor
+              class="underline font-bold"
+              text="Envie de participer ?"
+              to="/contact"
+            />
+            <!-- <span
               class="block bg-primary-500 rounded px-1 py-0.5 text-white text-xs"
             >
-              Début de la série le 2 Septembre 2022
-            </span>
+              
+            </span> -->
           </div>
         </div>
       </div>

@@ -4,6 +4,55 @@ description: 'Premier regard exclusif sur les Orques du Seigneur des Anneaux  Le
 img: https://cdn.discordapp.com/attachments/991815025213837352/991815117589205032/orque_4.webp
 date: "2022-06-21"
 preview: "Les orques en exclusivité"
+head:
+  meta:
+    - name: 'keywords'
+      content: 'Orques'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'Elrohir'
+    - name: 'title'
+      content: 'Les Orques !'  
+    - name: 'twitter:card'
+      content: 'summary_large_image'
+    - name: 'twitter:site'
+      content: 'https://anneauxdepouvoir.fr/'
+    - name: 'twitter:title'
+      content: 'Les Orques !'
+    - name: 'twitter:creator'
+      content: 'Elrohir'
+    - name: 'twitter:description'
+      content: "Premier regard exclusif sur les Orques du Seigneur des Anneaux  Les Anneaux du Pouvoir 💍"
+    - name: 'twitter:image'
+      content: 'https://cdn.discordapp.com/attachments/991815025213837352/991815117589205032/orque_4.webp'
+    - name: 'og:title'
+      content: 'Les Orques !'
+    - name: 'og:description'
+      content: "Premier regard exclusif sur les Orques du Seigneur des Anneaux  Les Anneaux du Pouvoir 💍"
+    - name: 'og:image'
+      content: 'https://cdn.discordapp.com/attachments/991815025213837352/991815117589205032/orque_4.webp'
+    - name: 'og:image:width'
+      content: '400'
+    - name: 'og:image:height'
+      content: '300'
+    - name: 'og:image:alt'
+      content: "Premier regard exclusif sur les Orques du Seigneur des Anneaux  Les Anneaux du Pouvoir 💍"
+    - name: 'og:image:type'
+      content: 'image/jpeg'
+    - name: 'og:url'
+      content: 'https://anneauxdepouvoir.fr/news/les_orques'
+    - name: 'og:site_name'
+      content: 'Anneaux de Pouvoir'
+  link:
+    - name: 'canonical'
+      content: 'https://anneauxdepouvoir.fr/news/les_orques'
+    - name: 'shortlink'
+      content: 'https://anneauxdepouvoir.fr/news/les_orques'
+    - name: 'prev'
+      content: 'https://anneauxdepouvoir.fr/news/prime_video_elf_fans'
+    - name: 'next'
+      content: 'https://anneauxdepouvoir.fr/news/gil-galad'
 ---
 
 # Premier regard exclusif sur les Orques du Seigneur des Anneaux  Les Anneaux du Pouvoir 💍

@@ -4,6 +4,55 @@ description: 'Nouvelle vidéo promotionnelle pour la série Seigneur des Anneaux
 img: https://cdn.discordapp.com/attachments/991815025213837352/991816015258325053/scene00334.jpg
 date: "2022-06-20"
 preview: "Vidéo promotionnelle"
+head:
+  meta:
+    - name: 'keywords'
+      content: 'Ent, Dragon, Elfe'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'Elrohir'
+    - name: 'title'
+      content: 'Vidéo prommotionnelle'  
+    - name: 'twitter:card'
+      content: 'summary_large_image'
+    - name: 'twitter:site'
+      content: 'https://anneauxdepouvoir.fr/'
+    - name: 'twitter:title'
+      content: 'Vidéo prommotionnelle'
+    - name: 'twitter:creator'
+      content: 'Elrohir'
+    - name: 'twitter:description'
+      content: "Nouvelle vidéo promotionnelle pour la série Seigneur des Anneaux : Les Anneaux de Pouvoir"
+    - name: 'twitter:image'
+      content: 'https://cdn.discordapp.com/attachments/991815025213837352/991816015258325053/scene00334.jpg'
+    - name: 'og:title'
+      content: 'Vidéo prommotionnelle'
+    - name: 'og:description'
+      content: "Nouvelle vidéo promotionnelle pour la série Seigneur des Anneaux : Les Anneaux de Pouvoir"
+    - name: 'og:image'
+      content: 'https://cdn.discordapp.com/attachments/991815025213837352/991816015258325053/scene00334.jpg'
+    - name: 'og:image:width'
+      content: '400'
+    - name: 'og:image:height'
+      content: '300'
+    - name: 'og:image:alt'
+      content: "Nouvelle vidéo promotionnelle pour la série Seigneur des Anneaux : Les Anneaux de Pouvoir"
+    - name: 'og:image:type'
+      content: 'image/jpeg'
+    - name: 'og:url'
+      content: 'https://anneauxdepouvoir.fr/news/prime_video_elf_fans'
+    - name: 'og:site_name'
+      content: 'Anneaux de Pouvoir'
+  link:
+    - name: 'canonical'
+      content: 'https://anneauxdepouvoir.fr/news/prime_video_elf_fans'
+    - name: 'shortlink'
+      content: 'https://anneauxdepouvoir.fr/news/prime_video_elf_fans'
+    - name: 'prev'
+      content: 'https://anneauxdepouvoir.fr/news/les_orques'
+    - name: 'next'
+      content: 'https://anneauxdepouvoir.fr/news/celebrimbor'
 ---
 
 # Une nouvelle aventure

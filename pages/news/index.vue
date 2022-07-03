@@ -2,7 +2,6 @@
 definePageMeta({
   layout: 'news',
 })
-
 </script>
 
 <template>
@@ -14,7 +13,11 @@ definePageMeta({
       <PageSection>
         <main>
           <!-- <ContentDoc path="/" /> -->
-          <ContentList v-slot="{ list }" path="/news" :query="{ sort: { date: -1 } }">
+          <ContentList
+            v-slot="{ list }"
+            path="/news"
+            :query="{ sort: { date: -1 } }"
+          >
             <div class="flex flex-wrap">
               <div
                 v-for="article in list"
@@ -37,7 +40,7 @@ definePageMeta({
                       <div>
                         <div class="flex">
                           <h3
-                            class="mt-2 text-2xl font-semibold text-primary-400 dark:text-white hover:underline"
+                            class="mt-2 text-2xl font-semibold text-good dark:text-white hover:underline"
                           >
                             {{ article.title }}
                           </h3>
@@ -48,7 +51,7 @@ definePageMeta({
                     </span>
                   </div> -->
                         </div>
-                        <p class="mt-2 text-gray-400 dark:text-gray-300">
+                        <p class="mt-2 text-good dark:text-gray-300">
                           {{ article.description }}
                         </p>
                       </div>
@@ -68,9 +71,10 @@ definePageMeta({
                       >{{ terredumilieu.author.name }}
                     </NuxtLink> -->
                           </div>
-                          <span class="mx-1 text-gray-200 underline">{{
-                            formatDate(article.date)
-                          }}</span>
+                          <span
+                            class="mx-1 text-black dark:text-gray-200 underline"
+                            >{{ formatDate(article.date) }}</span
+                          >
                         </div>
                       </div>
                     </div>

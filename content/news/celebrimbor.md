@@ -4,6 +4,55 @@ description: "Celebrimbor, la Main d'Argent le créateur des anneaux de pouvoir"
 img: https://cdn.discordapp.com/attachments/991815025213837352/992107350846615662/20220628_104240.jpg
 date: "2022-06-28"
 preview: "Celebrimbor"
+head:
+  meta:
+    - name: 'keywords'
+      content: 'Celebrimbor, Elrond'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'author'
+      content: 'Elrohir'
+    - name: 'title'
+      content: 'Celebrimbor et Elrond'  
+    - name: 'twitter:card'
+      content: 'summary_large_image'
+    - name: 'twitter:site'
+      content: 'https://anneauxdepouvoir.fr/'
+    - name: 'twitter:title'
+      content: 'Celebrimbor et Elrond'
+    - name: 'twitter:creator'
+      content: 'Elrohir'
+    - name: 'twitter:description'
+      content: "Celebrimbor, la Main d'Argent le créateur des anneaux de pouvoir"
+    - name: 'twitter:image'
+      content: 'https://cdn.discordapp.com/attachments/991815025213837352/992107350846615662/20220628_104240.jpg'
+    - name: 'og:title'
+      content: 'Celebrimbor et Elrond'
+    - name: 'og:description'
+      content: "Celebrimbor, la Main d'Argent le créateur des anneaux de pouvoir"
+    - name: 'og:image'
+      content: 'https://cdn.discordapp.com/attachments/991815025213837352/992107350846615662/20220628_104240.jpg'
+    - name: 'og:image:width'
+      content: '400'
+    - name: 'og:image:height'
+      content: '300'
+    - name: 'og:image:alt'
+      content: "Celebrimbor, la Main d'Argent le créateur des anneaux de pouvoir"
+    - name: 'og:image:type'
+      content: 'image/jpeg'
+    - name: 'og:url'
+      content: 'https://anneauxdepouvoir.fr/news/celebrimbor'
+    - name: 'og:site_name'
+      content: 'Anneaux de Pouvoir'
+  link:
+    - name: 'canonical'
+      content: 'https://anneauxdepouvoir.fr/news/celebrimbor'
+    - name: 'shortlink'
+      content: 'https://anneauxdepouvoir.fr/news/celebrimbor'
+    - name: 'prev'
+      content: 'https://anneauxdepouvoir.fr/news/gil-galad'
+    - name: 'next'
+      content: 'https://anneauxdepouvoir.fr/news/prime_video_elf_fans'
 ---
 
 # **Celebrimbor, la Main d'Argent le créateur des anneaux de pouvoir dans le SeigBneur des Anneaux : Les Anneaux de Pouvoir** 

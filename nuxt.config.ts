@@ -117,8 +117,9 @@ export default defineNuxtConfig({
   },
 
   content: {
+    documentDriven: true,
     navigation: {
-      fields: ['date']
-    }
-  }
+      fields: ['date'],
+    },
+  },
 })
