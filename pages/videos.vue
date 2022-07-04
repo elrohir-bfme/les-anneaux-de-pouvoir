@@ -20,6 +20,7 @@ const videos = computed<string[]>(() => [
   'z8tV9TYuDWA',
   'WBERBw3VjmY',
   'UdOrHKSfq4w',
+  'ZDGlysi_U78',
   'lFf_YqIxND0',
   'Z5iiio2ql6g',
 ])
