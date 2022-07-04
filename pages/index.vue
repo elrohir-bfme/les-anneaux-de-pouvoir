@@ -46,7 +46,9 @@ definePageMeta({
           <span class="animated-text-fg">{{ item.text }}</span>
         </span> -->
       </h1>
-      <div class="flex flex-col self-center lg:self-auto   lg:w-auto w-sm lg:flex-row space-x-0 lg:space-x-4 justify-center mt-10">
+      <div
+        class="flex flex-col self-center lg:self-auto lg:w-auto w-sm lg:flex-row space-x-0 lg:space-x-4 justify-center mt-10"
+      >
         <Button
           size="lg"
           text="La Terre du Milieu (Discord)"

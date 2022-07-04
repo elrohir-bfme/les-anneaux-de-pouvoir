@@ -3,7 +3,18 @@ definePageMeta({
   layout: 'page',
 })
 
+useHead(() => ({
+  title: 'Vidéos des membres de la Terre du Milieu',
+  meta: [
+    {
+      name: 'description',
+      content: 'Découvre les nouvelles vidéos des vidéates de la Terre du Milieu',
+    },
+  ],
+}))
+
 const videos = computed<string[]>(() => [
+  'nNDZTGjWSxg',
   'CBI3yoVr05Q',
   'reeMd_hQV-I',
   'z8tV9TYuDWA',

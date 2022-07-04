@@ -18,7 +18,7 @@ export function ThemeManager() {
 
   // methods
   const getUserSetting = (): IThemeSettingOptions =>
-    themeUserSetting.value || 'system'
+    themeUserSetting.value || 'dark'
   const getSystemTheme = (): ITheme => {
     try {
       return window
