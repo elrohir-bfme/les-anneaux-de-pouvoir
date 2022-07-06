@@ -23,13 +23,13 @@ head:
     - name: 'twitter:creator'
       content: 'Elrohir'
     - name: 'twitter:description'
-      content: "🚨La Bande Annonce du Seigneur des Anneaux : Les Anneaux de Pouvoir 💍 sera le 14 Juillet 🎆🎆🎆"
+      content: "Second Teaser avant la Bande Annonce le 14 Juillet 2022"
     - name: 'twitter:image'
       content: 'https://cdn.discordapp.com/attachments/991815025213837352/994192810741862411/scene02161.png'
     - name: 'og:title'
       content: 'Le Seigneur des Anneaux : Les Anneaux de Pouvoir - Saison 1 : Avant-goût'
     - name: 'og:description'
-      content: "🚨La Bande Annonce du Seigneur des Anneaux : Les Anneaux de Pouvoir 💍 sera le 14 Juillet 🎆🎆🎆"
+      content: "Second Teaser avant la Bande Annonce le 14 Juillet 2022"
     - name: 'og:image'
       content: 'https://cdn.discordapp.com/attachments/991815025213837352/994192810741862411/scene02161.png'
     - name: 'og:image:width'
@@ -37,7 +37,7 @@ head:
     - name: 'og:image:height'
       content: '300'
     - name: 'og:image:alt'
-      content: "🚨La Bande Annonce du Seigneur des Anneaux : Les Anneaux de Pouvoir 💍 sera le 14 Juillet 🎆🎆🎆"
+      content: "Second Teaser avant la Bande Annonce le 14 Juillet 2022"
     - name: 'og:image:type'
       content: 'image/jpeg'
     - name: 'og:url'
@@ -59,7 +59,7 @@ head:
 
 Disponible sur Amazon Prime Vidéo France
 
-## 🚨La Bande Annonce du Seigneur des Anneaux : Les Anneaux de Pouvoir 💍 sera le 14 Juillet 🎆🎆🎆
+## Second Teaser avant la Bande Annonce le 14 Juillet 2022
 
 ![Prime Video](https://cdn.discordapp.com/attachments/991815025213837352/994192694043750410/scene00041.png)
 ![Prime Video](https://cdn.discordapp.com/attachments/991815025213837352/994192694236680202/scene00131.png)
