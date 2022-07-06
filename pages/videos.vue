@@ -8,7 +8,8 @@ useHead(() => ({
   meta: [
     {
       name: 'description',
-      content: 'Découvre les nouvelles vidéos des vidéates de la Terre du Milieu',
+      content:
+        'Découvre les nouvelles vidéos des vidéates de la Terre du Milieu',
     },
   ],
 }))

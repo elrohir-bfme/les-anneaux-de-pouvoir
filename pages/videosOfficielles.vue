@@ -60,6 +60,18 @@ definePageMeta({
               ></iframe>
             </div>
           </div>
+
+          <div class="md:w-1/2 p-4 w-full">
+            <div class="aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://www.youtube.com/embed/7ALOgprj1xg"
+                title="The Earth Needs More Elf Fans - Prime Video - See Where It Takes You"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
         </div>
       </PageSection>
     </PageBody>
