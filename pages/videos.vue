@@ -15,6 +15,7 @@ useHead(() => ({
 }))
 
 const videos = computed<string[]>(() => [
+  '3LM0QBkFUOo',
   'nNDZTGjWSxg',
   'CBI3yoVr05Q',
   'reeMd_hQV-I',
