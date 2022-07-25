@@ -15,6 +15,19 @@ useHead(() => ({
 }))
 
 const videos = computed<string[]>(() => [
+  'SnEik5rfY7Q',
+  'toYaws9I_bI',
+  'yaWVhFyl2yo',
+  'ooODxmpeZBk',
+  'CEEOvPc_DTA',
+  'CEfpmdbpBHw',
+  'OqvE1SR0amY',
+  'YRsswIW0Bx8',
+  'G9WuONRY9Fc',
+  'fHNHf-uYELg',
+  'jFQ70m7ulRY',
+  'C6z64iJeXTo',
+  'O_FysMIhE7Y',
   '3LM0QBkFUOo',
   'nNDZTGjWSxg',
   'CBI3yoVr05Q',

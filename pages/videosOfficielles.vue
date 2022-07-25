@@ -64,8 +64,32 @@ definePageMeta({
           <div class="md:w-1/2 p-4 w-full">
             <div class="aspect-w-16 aspect-h-9">
               <iframe
-                src="https://www.youtube.com/embed/7ALOgprj1xg"
-                title="The Earth Needs More Elf Fans - Prime Video - See Where It Takes You"
+                src="https://www.youtube.com/embed/ppBxqKQs5k8"
+                title="Le Seigneur des Anneaux : Les Anneaux de Pouvoir – Aperçu du Teaser | Prime Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="md:w-1/2 p-4 w-full">
+            <div class="aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://www.youtube.com/embed/KKSw6_SxIyc"
+                title="Le Seigneur des Anneaux : Les Anneaux de Pouvoir – Teaser Officiel | Prime Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="md:w-1/2 p-4 w-full">
+            <div class="aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://www.youtube.com/embed/vSPnXmEza3M"
+                title="Le Seigneur des Anneaux : Les Anneaux de Pouvoir - Bande-Annonce SDCC"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
