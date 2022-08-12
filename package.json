@@ -50,5 +50,6 @@
     "**/*.{js,ts,vue,html,css,scss}": [
       "yarn lintfix"
     ]
-  }
+  },
+  "dependencies": {}
 }
