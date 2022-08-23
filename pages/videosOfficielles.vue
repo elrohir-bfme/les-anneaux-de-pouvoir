@@ -109,6 +109,31 @@ definePageMeta({
             </div>
           </div>
 
+          <div class="md:w-1/2 p-4 w-full">
+            <div class="aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://www.youtube.com/embed/5DgfRPZ-8Gc"
+                title="Bear McCreary raconte la bande originale des Anneaux de Pouvoir | Prime Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+
+          <div class="md:w-1/2 p-4 w-full">
+            <div class="aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://www.youtube.com/embed/Bsnka8xrlfU"
+                title="Le Seigneur des Anneaux : Les Anneaux de Pouvoir – Bande-Annonce Officielle | Prime Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
           
         </div>
       </PageSection>
