@@ -12,29 +12,57 @@ definePageMeta({
         <img src="https://pbs.twimg.com/media/E7zdJNXVkAIPchb?format=jpg&name=4096x4096" alt="Orque les Anneaux de Pouvoir" />
       </div> -->
       <div
-        class="absolute top-0 left-1/3 lg:left-0 transform translate-x-0 lg:translate-x-64 translate-y-0 lg:translate-y-4 h-42 w-42 rounded-full bg-gray-900 dark:bg-white"
+        class="absolute top-0 left-1/3 lg:left-0 transform translate-x-0 lg:translate-x-64 translate-y-0 lg:translate-y-4 h-42 w-42 rounded-full"
       >
-        <img src="~/assets/images/orc.png" alt="Orque les Anneaux de Pouvoir" />
+        <img
+          width="156"
+          height="156"
+          loading="lazy"
+          src="~/assets/images/orc.png"
+          alt="Orque les Anneaux de Pouvoir"
+        />
+        <!-- <nuxt-img src="/orc.png" /> -->
       </div>
       <div
-        class="absolute hidden md:block top-0 right-0 transform -translate-x-18 translate-y-20 h-28 w-28 rounded-full bg-blue-600 linear-wipe"
+        class="absolute hidden md:block top-0 right-0 transform -translate-x-18 translate-y-20 h-28 w-28 rounded-full linear-wipe"
       >
-        <img src="~/assets/images/trollneige.png" alt="Troll des Neiges" />
+        <img
+          width="126"
+          height="126"
+          loading="lazy"
+          src="~/assets/images/trollneige.png"
+          alt="Troll des Neiges"
+        />
+        <!-- <nuxt-img src="/troll.png" /> -->
       </div>
       <div
-        class="absolute hidden md:block bottom-0 left-0 transform translate-x-4 -translate-y-40 h-30 w-30 rounded-full bg-purple-600 linear-wipe"
+        class="absolute hidden md:block bottom-0 left-0 transform translate-x-4 -translate-y-40 h-30 w-30 rounded-full linear-wipe"
       >
-        <img src="~/assets/images/elfe.png" alt="Les elfes" />
+        <img
+          width="156"
+          height="156"
+          loading="lazy"
+          src="~/assets/images/elfe.png"
+          alt="Les elfes"
+        />
+        <!-- <nuxt-img src="/elfe.png" /> -->
       </div>
       <div
-        class="absolute bottom-4 right-1/3 lg:right-4 h-40 w-40 rounded-full bg-red-600 linear-wipe"
+        class="absolute bottom-4 right-1/3 lg:right-4 h-40 w-40 rounded-full linear-wipe"
       >
-        <img src="~/assets/images/nains.png" alt="Les nains" />
+        <img
+          width="126"
+          height="126"
+          loading="lazy"
+          src="~/assets/images/nains.png"
+          alt="Les nains"
+        />
+        <!-- <nuxt-img src="/nains.png" /> -->
       </div>
     </div>
     <div class="flex flex-col z-10">
       <h1
-        class="text-lotr text-center drop-shadow-xl text-5xl xl:text-8xl 2xl:text-7xl block font-black uppercase"
+        class="text-lotr text-center drop-shadow-xl text-5xl xl:text-8xl 2xl:text-7xl block uppercase"
       >
         Le Seigneur des anneaux <br />Les Anneaux de pouvoir
         <!-- <span
@@ -69,7 +97,43 @@ definePageMeta({
 </template>
 
 <style lang="scss">
-$padding: 0.05em;
+@import '../assets/sass/variables';
+
+@keyframes anim-fg-1 {
+  0%,
+  16.667%,
+  100% {
+    opacity: 1;
+  }
+  33.333%,
+  83.333% {
+    opacity: 0;
+  }
+}
+@keyframes anim-fg-2 {
+  0%,
+  16.667%,
+  66.667%,
+  100% {
+    opacity: 0;
+  }
+  33.333%,
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes anim-fg-3 {
+  0%,
+  50%,
+  100% {
+    opacity: 0;
+  }
+  66.667%,
+  83.333% {
+    opacity: 1;
+  }
+}
+
 .animated-text-bg {
   position: relative;
   display: block;
@@ -117,25 +181,7 @@ $padding: 0.05em;
   position: relative;
   opacity: 0;
   z-index: 1;
-  animation: anim-fg 8s infinite;
-  animation-delay: var(--delay);
-  @keyframes anim-fg {
-    0% {
-      opacity: 1;
-    }
-    16% {
-      opacity: 1;
-    }
-    33% {
-      opacity: 0;
-    }
-    83% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+  animation: var(--animation-name) 8s infinite;
 }
 html.dark {
   .animated-text-bg {

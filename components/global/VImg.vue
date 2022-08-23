@@ -17,6 +17,7 @@ export default {
     },
     title: {
       type: String,
+      default: '',
     },
     asset: {
       type: Boolean,

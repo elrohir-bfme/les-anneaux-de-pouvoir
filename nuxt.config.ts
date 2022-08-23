@@ -46,18 +46,17 @@ export default defineNuxtConfig({
     transpile: ['@headlessui/vue'],
   },
 
-  // build modules
-  buildModules: [
+  // modules
+  modules: [
     'nuxt-windicss',
-    '@nuxtjs/eslint-module',
-    'unplugin-icons/nuxt',
-    '@pinia/nuxt',
-    '@nuxtjs/svg',
     '@intlify/nuxt3',
     '@vueuse/nuxt',
+    '@nuxt/content',
+    '@pinia/nuxt',
   ],
 
-  modules: ['@nuxt/content'],
+  // build modules
+  buildModules: ['@nuxtjs/eslint-module', 'unplugin-icons/nuxt', '@nuxtjs/svg'],
 
   // experimental features
   experimental: {

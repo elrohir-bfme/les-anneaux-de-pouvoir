@@ -121,7 +121,6 @@ definePageMeta({
             </div>
           </div>
 
-
           <div class="md:w-1/2 p-4 w-full">
             <div class="aspect-w-16 aspect-h-9">
               <iframe
@@ -133,8 +132,6 @@ definePageMeta({
               ></iframe>
             </div>
           </div>
-
-          
         </div>
       </PageSection>
     </PageBody>
