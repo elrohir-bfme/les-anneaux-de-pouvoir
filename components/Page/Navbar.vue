@@ -12,6 +12,7 @@ export interface IMenuItem {
 const { t } = useLang()
 const app = useState<IApp>('app')
 const menus = computed((): IMenuItem[] => [
+  { type: 'link', text: 'Planning', route: { name: 'planning' } },
   { type: 'link', text: 'Images', route: { name: 'images' } },
   { type: 'link', text: 'Affiches', route: { name: 'affiches' } },
   { type: 'link', text: 'Cartes', route: { name: 'cartes' } },
